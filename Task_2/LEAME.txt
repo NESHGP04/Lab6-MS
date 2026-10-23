@@ -1,0 +1,40 @@
+AULA ABIERTA - TASK 2 - GRUPO 4
+q = 0.35 por día. D = 6 días. H = 1 día. U(0) = 100. c(0) = 4.
+
+ARCHIVOS
+task_2.py: simulación y verificaciones completas; no requiere el código del Task 1.
+Reporte_Task_2_Grupo_4.docx: desarrollo y resultados de los incisos 2.1 a 2.4.
+resultados.json: resultados, intervalos y trayectorias de las réplicas principales.
+stable.csv, overload.csv, interface.csv: 30 réplicas por experimento DES.
+errores_sd.csv: errores de Euler y RK4 frente a solve_ivp.
+comparacion_eventos.csv: 30 réplicas por cada una de tres versiones del híbrido.
+ventanas_*.csv: métricas por intercambio de las tres réplicas principales.
+figuras/: gráficas para el reporte.
+crear_reporte.py: reconstruye el Word a partir de los resultados existentes.
+
+EJECUCIÓN
+1. Usar Python 3 e instalar: pip install numpy scipy matplotlib
+2. Ejecutar: python task_2.py
+3. Para reconstruir el Word: pip install python-docx
+   y ejecutar: python crear_reporte.py
+
+La simulación puede tardar varios minutos. Guarda todo junto al script.
+Semilla base: 20261022. No se seleccionaron réplicas por sus resultados.
+Los intervalos del 95 % usan t de Student sobre 30 réplicas independientes.
+
+MEDICIONES
+El DES usa FCFS y capacidad K que incluye cola y servicio.
+W y Wq corresponden a llegadas aceptadas entre 120 y 720 segundos.
+Los clientes que siguen dentro a 720 se drenan sin nuevas llegadas para
+completar sus tiempos. El drenaje no altera áreas ni conteos medidos.
+El código distingue conteos totales y posteriores al calentamiento, y
+verifica conservación con y sin inventario inicial, además de una identidad
+exacta entre el área de población y permanencias recortadas al intervalo.
+
+El híbrido mantiene W y r entre intercambios diarios. Una entrega de
+servidores no fuerza otra llamada al DES antes del intercambio siguiente.
+La versión exacta localiza eventos con solve_ivp. Las versiones ingenuas
+revisan en una malla global, pero usan el mismo integrador: así se aísla
+el efecto de detección. max_step = 0.25 días y rtol = atol = 1e-10.
+
+
