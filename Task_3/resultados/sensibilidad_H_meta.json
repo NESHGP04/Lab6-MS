@@ -1,0 +1,42 @@
+{
+  "task": "3.1",
+  "n_replicas": 20,
+  "H_values": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    7.0
+  ],
+  "base_seed": 20261022,
+  "seeds": [
+    20261022,
+    20261023,
+    20261024,
+    20261025,
+    20261026,
+    20261027,
+    20261028,
+    20261029,
+    20261030,
+    20261031,
+    20261032,
+    20261033,
+    20261034,
+    20261035,
+    20261036,
+    20261037,
+    20261038,
+    20261039,
+    20261040,
+    20261041
+  ],
+  "pairing": "Misma semilla de réplica para todos los H. El índice DES es round(t/H), por lo que al cambiar H no se garantiza el mismo ruido DES en el mismo t.",
+  "Wmax_definition": "max W sobre ventanas de intercambio (como Task 2). H grande → menos ventanas → menos oportunidades de observar picos.",
+  "RRMSE": "sqrt(mean((U_H-U_ref)^2))/sqrt(mean(U_ref^2)); malla diaria t=0..100; ref=H=0.25",
+  "grid": "t=0,1,...,100 (grid_dt=1)",
+  "elapsed_s": 128.31236416300817,
+  "executed_at": "2026-10-27T22:59:55.922344+00:00",
+  "code_version": "Task_3/src/hybrid_engine.py + task_3.py"
+}

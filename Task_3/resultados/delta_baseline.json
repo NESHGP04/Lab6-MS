@@ -1,0 +1,100 @@
+{
+  "summary": {
+    "baseline": {
+      "U100": {
+        "mean": 19829.55377885223,
+        "low": 19829.553778842124,
+        "high": 19829.553778862337,
+        "n": 20
+      },
+      "c100": {
+        "mean": 8.0,
+        "low": 8.0,
+        "high": 8.0,
+        "n": 20
+      },
+      "Wmax": {
+        "mean": 1.1885999129640648,
+        "low": 1.0765326074466735,
+        "high": 1.300667218481456,
+        "n": 20
+      },
+      "rmax": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 20
+      },
+      "first_order": {
+        "mean": 14.0,
+        "low": 14.0,
+        "high": 14.0,
+        "n": 20
+      },
+      "first_delivery": {
+        "mean": 20.0,
+        "low": 20.0,
+        "high": 20.0,
+        "n": 20
+      },
+      "n_orders": {
+        "mean": 2.0,
+        "low": 2.0,
+        "high": 2.0,
+        "n": 20
+      }
+    },
+    "verificado": {
+      "U100": {
+        "mean": 19829.553778859838,
+        "low": 19829.55377885602,
+        "high": 19829.553778863654,
+        "n": 20
+      },
+      "c100": {
+        "mean": 8.0,
+        "low": 8.0,
+        "high": 8.0,
+        "n": 20
+      },
+      "Wmax": {
+        "mean": 1.1180484463370648,
+        "low": 1.051061267256662,
+        "high": 1.1850356254174677,
+        "n": 20
+      },
+      "rmax": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 20
+      },
+      "first_order": {
+        "mean": 13.720565463777273,
+        "low": 13.720565463777273,
+        "high": 13.720565463777273,
+        "n": 20
+      },
+      "first_delivery": {
+        "mean": 19.720565463777277,
+        "low": 19.720565463777277,
+        "high": 19.720565463777277,
+        "n": 20
+      },
+      "n_orders": {
+        "mean": 2.0,
+        "low": 2.0,
+        "high": 2.0,
+        "n": 20
+      }
+    }
+  },
+  "meta": {
+    "task": "3.2",
+    "n_replicas": 20,
+    "scenario": "H=1, U0=100, c0=4, theta=0.7, k=2, D=6, 100 días",
+    "baseline_note": "Baseline original usa rng fijo 42; aquí se parametriza solo la semilla sin cambiar reglas de intercambio ni autoescalado discreto.",
+    "elapsed_s": 0.1689662200078601,
+    "executed_at": "2026-10-27T23:01:09.492589+00:00"
+  }
+}

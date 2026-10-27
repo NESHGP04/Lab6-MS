@@ -1,0 +1,91 @@
+[2026-10-27T22:57:45.185979+00:00] === --validate ===
+[2026-10-27T22:57:46.731667+00:00] smoke Task2: ok=True detail={'first_order': 13.720565463777273, 'U_end': 19829.55377886053, 'c_end': 8, 'Wmax': 0.987029413157161, 'rmax': 0.0}
+[2026-10-27T22:57:47.609367+00:00] validate elapsed_s=2.423
+[2026-10-27T22:57:47.609949+00:00] === Task 3.1 sensibilidad H ===
+[2026-10-27T22:57:53.729125+00:00] 3.1 réplica 1/20 seed=20261022 U100(H=0.25)=19829.55
+[2026-10-27T22:57:59.797087+00:00] 3.1 réplica 2/20 seed=20261023 U100(H=0.25)=19829.55
+[2026-10-27T22:58:05.994697+00:00] 3.1 réplica 3/20 seed=20261024 U100(H=0.25)=19829.55
+[2026-10-27T22:58:12.238610+00:00] 3.1 réplica 4/20 seed=20261025 U100(H=0.25)=19829.55
+[2026-10-27T22:58:18.519800+00:00] 3.1 réplica 5/20 seed=20261026 U100(H=0.25)=19829.55
+[2026-10-27T22:58:24.863436+00:00] 3.1 réplica 6/20 seed=20261027 U100(H=0.25)=19829.55
+[2026-10-27T22:58:31.098211+00:00] 3.1 réplica 7/20 seed=20261028 U100(H=0.25)=19829.55
+[2026-10-27T22:58:37.489515+00:00] 3.1 réplica 8/20 seed=20261029 U100(H=0.25)=19829.55
+[2026-10-27T22:58:43.799581+00:00] 3.1 réplica 9/20 seed=20261030 U100(H=0.25)=19829.55
+[2026-10-27T22:58:50.141560+00:00] 3.1 réplica 10/20 seed=20261031 U100(H=0.25)=19829.55
+[2026-10-27T22:58:56.504745+00:00] 3.1 réplica 11/20 seed=20261032 U100(H=0.25)=19829.55
+[2026-10-27T22:59:02.880994+00:00] 3.1 réplica 12/20 seed=20261033 U100(H=0.25)=19829.55
+[2026-10-27T22:59:09.373718+00:00] 3.1 réplica 13/20 seed=20261034 U100(H=0.25)=19829.55
+[2026-10-27T22:59:15.722915+00:00] 3.1 réplica 14/20 seed=20261035 U100(H=0.25)=19829.55
+[2026-10-27T22:59:22.135279+00:00] 3.1 réplica 15/20 seed=20261036 U100(H=0.25)=19829.55
+[2026-10-27T22:59:28.575912+00:00] 3.1 réplica 16/20 seed=20261037 U100(H=0.25)=19829.55
+[2026-10-27T22:59:34.932334+00:00] 3.1 réplica 17/20 seed=20261038 U100(H=0.25)=19829.55
+[2026-10-27T22:59:41.178288+00:00] 3.1 réplica 18/20 seed=20261039 U100(H=0.25)=19829.55
+[2026-10-27T22:59:47.403797+00:00] 3.1 réplica 19/20 seed=20261040 U100(H=0.25)=19829.55
+[2026-10-27T22:59:53.739839+00:00] 3.1 réplica 20/20 seed=20261041 U100(H=0.25)=19829.55
+[2026-10-27T22:59:53.914027+00:00] 3.1 diagnóstico theory réplica 1/10
+[2026-10-27T22:59:54.067372+00:00] 3.1 diagnóstico theory réplica 2/10
+[2026-10-27T22:59:54.218836+00:00] 3.1 diagnóstico theory réplica 3/10
+[2026-10-27T22:59:54.367114+00:00] 3.1 diagnóstico theory réplica 4/10
+[2026-10-27T22:59:54.514185+00:00] 3.1 diagnóstico theory réplica 5/10
+[2026-10-27T22:59:54.665372+00:00] 3.1 diagnóstico theory réplica 6/10
+[2026-10-27T22:59:54.807822+00:00] 3.1 diagnóstico theory réplica 7/10
+[2026-10-27T22:59:54.954208+00:00] 3.1 diagnóstico theory réplica 8/10
+[2026-10-27T22:59:55.098634+00:00] 3.1 diagnóstico theory réplica 9/10
+[2026-10-27T22:59:55.243017+00:00] 3.1 diagnóstico theory réplica 10/10
+[2026-10-27T22:59:55.922782+00:00] Task 3.1 elapsed_s=128.312
+[2026-10-27T22:59:55.928237+00:00] === Task 3.2 delta baseline ===
+[2026-10-27T23:00:02.540721+00:00] 3.2 réplica 5/20
+[2026-10-27T23:00:09.100784+00:00] 3.2 réplica 10/20
+[2026-10-27T23:00:15.615981+00:00] 3.2 réplica 15/20
+[2026-10-27T23:00:22.240499+00:00] 3.2 réplica 20/20
+[2026-10-27T23:00:22.257156+00:00] Traceback (most recent call last):
+  File "/home/cisco/universidad/cuarto/segundo_semestre/modelacion_sim/lab6/Lab6-MS/Task_3/task_3.py", line 933, in <module>
+    main()
+    ~~~~^^
+  File "/home/cisco/universidad/cuarto/segundo_semestre/modelacion_sim/lab6/Lab6-MS/Task_3/task_3.py", line 923, in main
+    data32 = run_task_32(args.force)
+  File "/home/cisco/universidad/cuarto/segundo_semestre/modelacion_sim/lab6/Lab6-MS/Task_3/task_3.py", line 391, in run_task_32
+    ax.boxplot([bvals, vvals], labels=['baseline', 'verificado'])
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cisco/.local/lib/python3.14/site-packages/matplotlib/_api/deprecation.py", line 477, in wrapper
+    return func(*args, **kwargs)
+  File "/home/cisco/.local/lib/python3.14/site-packages/matplotlib/__init__.py", line 1528, in inner
+    return func(
+        ax,
+        *map(cbook.sanitize_sequence, args),
+        **{k: cbook.sanitize_sequence(v) for k, v in kwargs.items()})
+TypeError: Axes.boxplot() got an unexpected keyword argument 'labels'. Did you mean 'label'?
+
+Traceback (most recent call last):
+  File "/home/cisco/universidad/cuarto/segundo_semestre/modelacion_sim/lab6/Lab6-MS/Task_3/task_3.py", line 933, in <module>
+    main()
+    ~~~~^^
+  File "/home/cisco/universidad/cuarto/segundo_semestre/modelacion_sim/lab6/Lab6-MS/Task_3/task_3.py", line 923, in main
+    data32 = run_task_32(args.force)
+  File "/home/cisco/universidad/cuarto/segundo_semestre/modelacion_sim/lab6/Lab6-MS/Task_3/task_3.py", line 391, in run_task_32
+    ax.boxplot([bvals, vvals], labels=['baseline', 'verificado'])
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cisco/.local/lib/python3.14/site-packages/matplotlib/_api/deprecation.py", line 477, in wrapper
+    return func(*args, **kwargs)
+  File "/home/cisco/.local/lib/python3.14/site-packages/matplotlib/__init__.py", line 1528, in inner
+    return func(
+        ax,
+        *map(cbook.sanitize_sequence, args),
+        **{k: cbook.sanitize_sequence(v) for k, v in kwargs.items()})
+TypeError: Axes.boxplot() got an unexpected keyword argument 'labels'. Did you mean 'label'?
+[2026-10-27T23:00:34.525587+00:00] === Task 3.3 políticas de autoescalado ===
+[2026-10-27T23:00:59.905767+00:00] 3.3 progreso 20/240 theta=0.5 k=1
+[2026-10-27T23:01:25.670148+00:00] 3.3 progreso 40/240 theta=0.5 k=2
+[2026-10-27T23:01:51.470552+00:00] 3.3 progreso 60/240 theta=0.5 k=4
+[2026-10-27T23:02:17.149161+00:00] 3.3 progreso 80/240 theta=0.6 k=1
+[2026-10-27T23:02:43.388985+00:00] 3.3 progreso 100/240 theta=0.6 k=2
+[2026-10-27T23:03:08.713393+00:00] 3.3 progreso 120/240 theta=0.6 k=4
+[2026-10-27T23:03:34.250299+00:00] 3.3 progreso 140/240 theta=0.7 k=1
+[2026-10-27T23:04:00.019590+00:00] 3.3 progreso 160/240 theta=0.7 k=2
+[2026-10-27T23:04:25.793447+00:00] 3.3 progreso 180/240 theta=0.7 k=4
+[2026-10-27T23:04:51.641559+00:00] 3.3 progreso 200/240 theta=0.8 k=1
+[2026-10-27T23:05:18.155577+00:00] 3.3 progreso 220/240 theta=0.8 k=2
+[2026-10-27T23:05:44.764634+00:00] 3.3 progreso 240/240 theta=0.8 k=4
+[2026-10-27T23:05:45.095423+00:00] Task 3.3 elapsed_s=310.569
+[2026-10-27T23:05:45.103096+00:00] Documentos markdown actualizados
+[2026-10-27T23:05:45.103262+00:00] Listo.

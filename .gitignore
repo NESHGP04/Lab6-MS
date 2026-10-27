@@ -1,0 +1,30 @@
+# Python: bytecode y cachés
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Entornos virtuales y configuración local
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Archivos temporales de Jupyter
+.ipynb_checkpoints/
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Archivos del sistema operativo
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
